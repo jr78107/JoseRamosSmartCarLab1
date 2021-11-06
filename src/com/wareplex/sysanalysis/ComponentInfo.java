@@ -20,12 +20,14 @@ public class ComponentInfo {
 	public String getCompModel() {
 		return compModel;
 	}
+	
 	/**
 	 * @param compModel the compModel to set
 	 */
 	public void setCompModel(String compModel) {
 		this.compModel = compModel;
 	}
+	
 	/**
 	 * @return the compVersion
 	 */
@@ -38,12 +40,14 @@ public class ComponentInfo {
 	public void setCompVersion(String compVersion) {
 		this.compVersion = compVersion;
 	}
+	
 	/**
 	 * @return the compType
 	 */
 	public String getCompType() {
 		return compType;
 	}
+	
 	/**
 	 * @param compType the compType to set
 	 */
@@ -57,7 +61,6 @@ public class ComponentInfo {
 	
 	public String PrintAll() {
 		return "This is component information";
-	}
 	}
 
 }
