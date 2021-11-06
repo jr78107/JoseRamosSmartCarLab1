@@ -9,6 +9,7 @@ package com.wareplex.sysanalysis;
  */
 public class Car {
 	
+	@SuppressWarnings("unused")
 	private String carID;
 	private String carName;
 
