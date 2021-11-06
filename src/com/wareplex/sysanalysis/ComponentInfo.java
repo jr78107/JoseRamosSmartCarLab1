@@ -24,5 +24,29 @@ public class ComponentInfo {
 	public void setCompModel(String compModel) {
 		this.compModel = compModel;
 	}
+	/**
+	 * @return the compVersion
+	 */
+	public String getCompVersion() {
+		return compVersion;
+	}
+	/**
+	 * @param compVersion the compVersion to set
+	 */
+	public void setCompVersion(String compVersion) {
+		this.compVersion = compVersion;
+	}
+	/**
+	 * @return the compType
+	 */
+	public String getCompType() {
+		return compType;
+	}
+	/**
+	 * @param compType the compType to set
+	 */
+	public void setCompType(String compType) {
+		this.compType = compType;
+	}
 
 }
