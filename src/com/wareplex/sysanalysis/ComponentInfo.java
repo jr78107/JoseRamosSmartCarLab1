@@ -51,8 +51,13 @@ public class ComponentInfo {
 		this.compType = compType;
 	}
 	
-	public Boolean enabled(Boolean value) {
+	public Boolean Enabled(Boolean value) {
 		return isEnabled;
+	}
+	
+	public String PrintAll() {
+		return "This is component information";
+	}
 	}
 
 }
