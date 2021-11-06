@@ -12,6 +12,8 @@ public class ComponentInfo {
 	private String compModel;
 	private String compVersion;
 	private String compType;
+	private boolean isEnabled;
+	
 	/**
 	 * @return the compModel
 	 */
@@ -47,6 +49,10 @@ public class ComponentInfo {
 	 */
 	public void setCompType(String compType) {
 		this.compType = compType;
+	}
+	
+	public Boolean enabled(Boolean value) {
+		return isEnabled;
 	}
 
 }
