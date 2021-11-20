@@ -7,7 +7,7 @@ package com.wareplex.sysanalysis;
  * @author Jose
  *
  */
-public class Lights {
+public class Lights implements edu.fiu.sysdesign.SelfCheckCapable {
 	
 	private int lightColor = 0;
 
@@ -34,7 +34,23 @@ public class Lights {
 	}
 	
 	public String status() {
-		return "Lights - Check OK";
+		return getComponentName() + " - Ready to light up the road!\n";
+	}
+	
+	public String getComponentName() {
+		return "45643: Lights";
+	}
+
+	@Override
+	public boolean selfCheck() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean runSelfCheck() {
+		// TODO Auto-generated method stub
+		return true;
 	}
 
 }

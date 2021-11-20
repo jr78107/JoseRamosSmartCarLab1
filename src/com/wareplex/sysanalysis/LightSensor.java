@@ -1,24 +1,17 @@
-/**
- * 
- */
 package com.wareplex.sysanalysis;
 
-/**
- * @author Jose
- *
- */
-public class Camera implements edu.fiu.sysdesign.SelfCheckCapable {
+public class LightSensor implements edu.fiu.sysdesign.SelfCheckCapable {
 	
-	public String status() {
-		return getComponentName() + " - Say Cheese!\n";
-	}
-
-	public boolean isItDark() {
+	public boolean IsItDark() {
 		return false;
 	}
 	
+	public String status() {
+		return getComponentName() + " - I can see the light!\n";
+	}
+	
 	public String getComponentName() {
-		return "99376: Camera";
+		return "13567: Light Sensor";
 	}
 
 	@Override
@@ -32,5 +25,5 @@ public class Camera implements edu.fiu.sysdesign.SelfCheckCapable {
 		// TODO Auto-generated method stub
 		return true;
 	}
-	
+
 }

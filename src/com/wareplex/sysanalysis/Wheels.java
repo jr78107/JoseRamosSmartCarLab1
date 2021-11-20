@@ -7,10 +7,10 @@ package com.wareplex.sysanalysis;
  * @author Jose
  *
  */
-public class Wheels {
+public class Wheels implements edu.fiu.sysdesign.SelfCheckCapable {
 	
 	public String status() {
-		return "Wheels - Check OK";
+		return getComponentName() + " - All four fully inflated!\n";
 	}
 	
 	public void frontWheels(float arg) {
@@ -20,5 +20,21 @@ public class Wheels {
 	public void backWheels(float arg) {
 		
 	}
+	
+	public String getComponentName() {
+		return "92036: Wheels";
+	}
 
+	@Override
+	public boolean selfCheck() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean runSelfCheck() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	
 }

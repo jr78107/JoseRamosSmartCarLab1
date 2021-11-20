@@ -4,12 +4,14 @@
 package com.wareplex.sysanalysis;
 
 /**
- * @author Jose
+ * @author Jose E. Ramos
  *
  */
 public class Sensor {
 	
+	@SuppressWarnings("unused")
 	private int sensorType = 0;
+	private int sensorID = 0;
 
 	/**
 	 * @return the sensorType
@@ -23,6 +25,20 @@ public class Sensor {
 	 */
 	public void setSensorType(int sensorType) {
 		this.sensorType = sensorType;
+	}
+
+	/**
+	 * @return the sensorID
+	 */
+	public int getSensorID() {
+		return sensorID;
+	}
+
+	/**
+	 * @param sensorID the sensorID to set
+	 */
+	public void setSensorID(int sensorID) {
+		this.sensorID = sensorID;
 	}
 	
 }
