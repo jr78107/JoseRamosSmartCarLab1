@@ -33,4 +33,16 @@ public class Camera implements edu.fiu.sysdesign.SelfCheckCapable {
 		return true;
 	}
 	
+	public void Backup() {
+		
+	}
+	
+	public void InstallUpdates() {
+		
+	}
+	
+	public void RollbackUpdates() {
+		
+	}
+	
 }

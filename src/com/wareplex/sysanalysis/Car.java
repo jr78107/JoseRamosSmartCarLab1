@@ -153,5 +153,24 @@ public class Car {
 		this.direction = direction;
 	}
 	
+	public void Backup() {
+		
+	}
+	
+	public void InstallUpdates() {
+		
+	}
+	
+	public void RollbackUpdates() {
+		
+	}
+	
+	public void UpdateComponents() {
+		
+	}
+	
+	public void SoftwareCenterUpdates() {
+		
+	}
 	
 }

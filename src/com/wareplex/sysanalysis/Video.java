@@ -40,4 +40,16 @@ public class Video implements edu.fiu.sysdesign.SelfCheckCapable {
 		// TODO Auto-generated method stub
 		return true;
 	}
+	
+	public void Backup() {
+		
+	}
+	
+	public void InstallUpdates() {
+		
+	}
+	
+	public void RollbackUpdates() {
+		
+	}
 }
